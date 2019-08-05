@@ -1,9 +1,5 @@
 /* Global */
 
-*, *::before, *::after {
-        box-sizing: border-box;
-}
-
 @font-face {
   font-family: 'Wisdom Script Regular';
   font-style: normal;
@@ -118,4 +114,36 @@ body {
   font-family: 'Montserrat', serif;
   font-weight: 700;
   line-height: 30px;
+}
+.titles-1 {
+  display: flex;
+  justify-content: center;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  a {
+    i {
+      font-size: 30px;
+      background: #ffffff;
+      width: 60px;
+      height: 60px;
+      line-height: 50px;
+      color: #fed136;
+      border-radius: 50%;
+      border: solid 3px;
+      padding-top: 5px;
+      text-align: center;
+      }
+    }
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  h3, p {
+    text-align: center;
+  }
 }
