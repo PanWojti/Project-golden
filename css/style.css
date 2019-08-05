@@ -145,10 +145,14 @@ body {
 }
 
 .titles-1 {
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   -ms-flex-pack: center;
       justify-content: center;
+  text-align: center;
+}
+
+.titles-1 h1 {
+  text-transform: uppercase;
 }
 
 .items {
@@ -180,11 +184,14 @@ body {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  -ms-flex-pack: center;
-      justify-content: center;
 }
 
-.box h3, .box p {
+.box h3, .box p, .box a {
   text-align: center;
+}
+
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -116,8 +116,12 @@ body {
   line-height: 30px;
 }
 .titles-1 {
-  display: flex;
+  display: block;
   justify-content: center;
+  text-align: center;
+  h1 {
+    text-transform: uppercase;
+  }
 }
 .items {
   display: flex;
@@ -142,8 +146,12 @@ body {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  h3, p {
+  h3, p, a {
     text-align: center;
   }
+}
+.services {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
 }
