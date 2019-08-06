@@ -331,4 +331,26 @@ body {
   -ms-flex-align: center;
       align-items: center;
 }
+
+/*Media*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .titles {
+    margin-top: 50px;
+  }
+  .items {
+    display: block;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .row-bottom {
+    display: block;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .row-1 {
+    display: block;
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+}
 /*# sourceMappingURL=style.css.map */

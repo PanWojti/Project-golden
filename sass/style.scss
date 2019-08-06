@@ -269,3 +269,23 @@ body {
   flex-direction: row;
   align-items: center;
 }
+
+/*Media*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .titles {
+    margin-top: 50px;
+  }
+  .items {
+    display: block;
+    flex-direction: column;
+  }
+  .row-bottom {
+    display: block;
+    flex-direction: column;
+  }
+  .row-1 {
+    display: block;
+    flex-direction: column;
+  }
+}
