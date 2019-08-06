@@ -10,6 +10,31 @@ body {
   padding: 0;
   margin: 0;
 }
+.titles-1 {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  h1 {
+    text-transform: uppercase;
+  }
+  p {
+    color: #777777;
+    font-family: "Droid Serif", serif;
+    font-size: 16px;
+    font-style: italic;
+  }
+}
+.row {
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/*Splash*/
+
 .splash {
   width: 100%;
   height: 700px;
@@ -88,10 +113,6 @@ body {
   letter-spacing: -1.88px;
   margin: 26px auto;
 }
-.box-1 {
-  display: flex;
-  justify-content: center;
-}
 .btn-1 {
   width: 242px;
   height: 68px;
@@ -115,23 +136,11 @@ body {
   font-weight: 700;
   line-height: 30px;
 }
-.titles-1 {
-  display: block;
-  justify-content: center;
-  text-align: center;
-  font-family: 'Montserrat', serif;
-  padding-top: 80px;
-  padding-bottom: 50px;
-  h1 {
-    text-transform: uppercase;
-  }
-  p {
-    color: #777777;
-    font-family: "Droid Serif", serif;
-    font-size: 16px;
-    font-style: italic;
-  }
-}
+
+/*Services*/
+
+.services {
+  padding-bottom: 100px;
 .items {
   display: flex;
   flex-wrap: wrap;
@@ -165,11 +174,11 @@ body {
     font-weight: 400;
     letter-spacing: -0.35px;
   }
+  }
 }
-.services {
-  padding-bottom: 100px;
 
-}
+/*Portfolio*/
+
 .portfolio {
   background-color: #f7f7f7;
   padding-bottom: 80px;
@@ -204,6 +213,9 @@ body {
     font-style: italic;
   }
 }
+
+/*Footer*/
+
 .links {
   display: flex;
   justify-content: center;
@@ -230,12 +242,7 @@ body {
     }
   }
 }
-.row {
-  margin: 0 auto;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+
 .copyright {
   display: flex;
   flex-direction: row;
