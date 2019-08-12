@@ -99,8 +99,7 @@ body {
 .navbar {
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
 }
 
 .titles {
@@ -318,14 +317,27 @@ body {
 }
 
 /*Media*/
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 991px) {
   .titles {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .items {
     display: block;
     -ms-flex-direction: column;
         flex-direction: column;
+  }
+  .page-subtitle {
+    text-align: center;
+  }
+  .menu ul li {
+    display: block;
+    height: 30px;
+    text-align: right;
+  }
+  .navbar {
+    display: block;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -53,6 +53,7 @@ body {
     font-family: 'Wisdom Script Regular', serif;
   }
 }
+
 .menu {
   justify-content: space-around;
   ul {
@@ -80,7 +81,7 @@ body {
 }
 .navbar {
   justify-content: space-around;
-  display: flex;
+  display: block;
 }
 .titles {
   justify-content: center;
@@ -264,12 +265,24 @@ body {
 
 /*Media*/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media /*(min-width: 768px) and*/ (max-width: 991px) {
   .titles {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .items {
     display: block;
     flex-direction: column;
+  }
+  .page-subtitle {
+    text-align: center;
+  }
+  .menu ul li {
+    display: block;
+    height: 30px;
+    text-align: right;
+  }
+  .navbar {
+    display: block;
+    justify-content: flex-end;
   }
 }
